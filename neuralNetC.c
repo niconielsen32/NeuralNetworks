@@ -105,7 +105,7 @@ int main (void) {
             }
             
             // Print the results from forward pass
-            printf ("Input:%g  Output:%g    Expected Output: %g\n",
+            printf ("Input:%g %g  Output:%g    Expected Output: %g\n",
                     training_inputs[i][0], training_inputs[i][1],
                     outputLayer[0], training_outputs[i][0]);
 
